@@ -38,17 +38,17 @@ GRADE_MAPPING_PATH = os.path.join(CURRENT_DIR, "models", "grade_mapping.pkl")
 # Define custom importance weights
 CUSTOM_WEIGHTS = {
     'Weekly_Study_Hours': 0.25,  # Highest importance
-    'Attendance': 0.20,
-    'Listening_in_Class': 0.15,
-    'Project_work': 0.12,
-    'Notes': 0.10,
+    'Notes': 0.20,
+    'Project_work': 0.15,
+    'Listening_in_Class': 0.12,
+    'Attendance': 0.10,
     'Reading': 0.08,
     'Scholarship': 0.03,
-    'Student_Age': 0.02,
+    'Additional_Work': 0.02,
     'High_School_Type': 0.02,
     'Sex': 0.01,
     'Sports_activity': 0.01,
-    'Additional_Work': 0.01,
+    'Student_Age': 0.01,
     'Transportation': 0.01
 }
 
