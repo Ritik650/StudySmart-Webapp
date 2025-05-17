@@ -299,19 +299,19 @@ def generate_study_plan(prediction):
     if numeric_prediction >= 4:
         category = "High Performer"
         focus_areas = ["Advanced concepts", "Competitive exam preparation"]
-        recommended_hours = 20
+        recommended_hours = 25
     elif numeric_prediction >= 3:
         category = "Above Average"
         focus_areas = ["Concept strengthening", "Problem-solving techniques"]
-        recommended_hours = 15
+        recommended_hours = 21
     elif numeric_prediction >= 2:
         category = "Average Performer"
         focus_areas = ["Regular practice", "Concept clarity"]
-        recommended_hours = 12
+        recommended_hours = 18
     else:
         category = "Needs Improvement"
         focus_areas = ["Foundation concepts", "Daily structured practice"]
-        recommended_hours = 10
+        recommended_hours = 15
     
     # Create weekly plan
     weekly_plan = {
